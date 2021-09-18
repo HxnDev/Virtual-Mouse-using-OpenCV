@@ -19,3 +19,8 @@ MediaPipe is a framework for building multimodal (eg. video, audio, any time ser
 It can be installed using "pip install mediapipe"
 
 ### Autopy:
+AutoPy is a simple, cross-platform GUI automation library for Python. It includes functions for controlling the keyboard and mouse, finding colors and bitmaps on-screen, and displaying alerts.
+
+It can be installed using "pip install autopy"
+
+## Project Description:
