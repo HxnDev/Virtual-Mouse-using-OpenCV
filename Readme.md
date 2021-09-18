@@ -46,6 +46,7 @@ Follow the following steps:
 
 ## Contact Information:
 For any further queries, feel free to contact me at:
+
 Email: chhxnshah@gmail.com 
 
-LinkedIn : [LinkedIn]()
+LinkedIn : [Contact Me](https://www.linkedin.com/in/hassan-shahzad-2a6617212/)
