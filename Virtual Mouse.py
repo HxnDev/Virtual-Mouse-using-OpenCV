@@ -23,28 +23,28 @@ while True:
     img = detector.findHands(img)
     lmlist, bbox = detector.findPosition(img)
 
-        if len(lmlist)!=0:
-            x1, y1 = lmlist[8][1:]
-        x2, y2 = lmlist[12][1:]
+    if len(lmlist)!=0:
+        x1, y1 = lmlist[8][1:]
+    x2, y2 = lmlist[12][1:]
 
-        fingers = detector.fingersUp()
-        cv2.rectangle(img, (frameR, frameR), (width - frameR, height - frameR), (255, 0, 255), 2)
-        if fingers[1] == 1 and fingers[2] == 0:
-            x3 = np.interp(x1, (frameR,width-frameR), (0,screen_width))
-            y3 = np.interp(y1, (frameR, height-frameR), (0, screen_height))
+    fingers = detector.fingersUp()
+    cv2.rectangle(img, (frameR, frameR), (width - frameR, height - frameR), (255, 0, 255), 2)
+    if fingers[1] == 1 and fingers[2] == 0:
+        x3 = np.interp(x1, (frameR,width-frameR), (0,screen_width))
+        y3 = np.interp(y1, (frameR, height-frameR), (0, screen_height))
 
-            curr_x = prev_x + (x3 - prev_x)/smoothening
-            curr_y = prev_y + (y3 - prev_y) / smoothening
+        curr_x = prev_x + (x3 - prev_x)/smoothening
+        curr_y = prev_y + (y3 - prev_y) / smoothening
 
-            autopy.mouse.move(screen_width - curr_x, curr_y)
-            cv2.circle(img, (x1, y1), 7, (255, 0, 255), cv2.FILLED)
-            prev_x, prev_y = curr_x, curr_y
-        if fingers[1] == 1 and fingers[2] == 1:
-            length, img, lineInfo = detector.findDistance(8, 12, img)
+        autopy.mouse.move(screen_width - curr_x, curr_y)
+        cv2.circle(img, (x1, y1), 7, (255, 0, 255), cv2.FILLED)
+        prev_x, prev_y = curr_x, curr_y
+    if fingers[1] == 1 and fingers[2] == 1:
+        length, img, lineInfo = detector.findDistance(8, 12, img)
 
-            if length < 40:
-                cv2.circle(img, (lineInfo[4], lineInfo[5]), 15, (0, 255, 0), cv2.FILLED)
-                autopy.mouse.click()
+        if length < 40:
+            cv2.circle(img, (lineInfo[4], lineInfo[5]), 15, (0, 255, 0), cv2.FILLED)
+            autopy.mouse.click()
 
     cTime = time.time()
     fps = 1/(cTime-pTime)
