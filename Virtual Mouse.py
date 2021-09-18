@@ -5,19 +5,19 @@ import HandTracking as ht
 import autopy   # Install using "pip install autopy"
 
 ### Variables Declaration
-pTime = 0           # Used to calculate frame rate
-width = 640         # Width of Camera
-height = 480        # Height of Camera
-frameR = 100        # Frame Rate
-smoothening = 8     # Smoothening Factor
-prev_x, prev_y = 0, 0
-curr_x, curr_y = 0, 0
+pTime = 0               # Used to calculate frame rate
+width = 640             # Width of Camera
+height = 480            # Height of Camera
+frameR = 100            # Frame Rate
+smoothening = 8         # Smoothening Factor
+prev_x, prev_y = 0, 0   # Previous coordinates
+curr_x, curr_y = 0, 0   # Current coordinates
 
-cap = cv2.VideoCapture(0)
-cap.set(3, width)
+cap = cv2.VideoCapture(0)   # Getting video feed from the webcam
+cap.set(3, width)           # Adjusting size
 cap.set(4, height)
 
-detector = ht.handDetector(maxHands=1)
+detector = ht.handDetector(maxHands=1)                  # Detecting one hand at max
 screen_width, screen_height = autopy.screen.size()
 while True:
     success, img = cap.read()
