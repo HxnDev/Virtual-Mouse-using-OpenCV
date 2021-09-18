@@ -48,6 +48,6 @@ Follow the following steps:
 For any further queries, feel free to contact me at:
 Email: chhxnshah@gmail.com 
 
-@icn-camera : [LinkedIn]()
+&#9658; : [LinkedIn]()
 
 [Instagram]()
