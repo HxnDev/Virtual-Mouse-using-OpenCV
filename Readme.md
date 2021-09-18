@@ -45,3 +45,5 @@ Follow the following steps:
 - Your Python version has been degraded.
 
 ## Contact Information:
+For any further queries, feel free to contact me at:
+[Email](chhxnshah@gmail.com)   [LinkedIn]()    [Instagram]()
