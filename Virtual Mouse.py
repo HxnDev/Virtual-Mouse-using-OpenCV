@@ -12,3 +12,6 @@ smoothening = 8
 prev_x, prev_y = 0, 0
 curr_x, curr_y = 0, 0
 
+cap = cv2.VideoCapture(0)
+cap.set(3, width)
+cap.set(4, height)
