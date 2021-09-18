@@ -33,9 +33,9 @@ I faced alot of dependency issues throughout this project. Some of the issues an
 - autopy not installing: This is because autopy currently doesn't support Python versions above 3.8
 - webcam not opening: It was a bug in mediapipe and was fixed in latest python versions
 
-Hence, inorder for the project to run smoothly, you need to degrade the ##### Python version to 3.8
+Hence, inorder for the project to run smoothly, you need to degrade the Python version to 3.8
 
-#### How to Degrade Python Version:
+### How to Degrade Python Version:
 Follow the following steps:
 - Uninstall Python from add/remove programs
 - Go to AppData and remove any python folder you see.
