@@ -4,9 +4,10 @@ import time
 import HandTracking as ht
 import autopy   # Install using "pip install autopy"
 
-pTime = 0
-width = 640
-height = 480
+### Variables Declaration
+pTime = 0           # Used to calculate frame rate
+width = 640         # Width of Camera
+height = 480        # Height of Camera
 frameR = 100
 smoothening = 8
 prev_x, prev_y = 0, 0
