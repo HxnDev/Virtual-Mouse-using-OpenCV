@@ -46,7 +46,7 @@ while True:
 
             if length < 40:     # If both fingers are really close to each other
                 cv2.circle(img, (lineInfo[4], lineInfo[5]), 15, (0, 255, 0), cv2.FILLED)
-                autopy.mouse.click()
+                autopy.mouse.click()    # Perform Click
 
     cTime = time.time()
     fps = 1/(cTime-pTime)
