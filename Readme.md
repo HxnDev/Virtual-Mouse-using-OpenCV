@@ -46,4 +46,8 @@ Follow the following steps:
 
 ## Contact Information:
 For any further queries, feel free to contact me at:
-[Email](chhxnshah@gmail.com)   [LinkedIn]()    [Instagram]()
+Email: chhxnshah@gmail.com 
+
+︁ : [LinkedIn]()
+
+[Instagram]()
