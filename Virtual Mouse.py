@@ -40,11 +40,11 @@ while True:
             autopy.mouse.move(screen_width - curr_x, curr_y)    # Moving the cursor
             cv2.circle(img, (x1, y1), 7, (255, 0, 255), cv2.FILLED)
             prev_x, prev_y = curr_x, curr_y
-            
-        if fingers[1] == 1 and fingers[2] == 1:
+
+        if fingers[1] == 1 and fingers[2] == 1:     # If fore finger & middle finger both are up
             length, img, lineInfo = detector.findDistance(8, 12, img)
 
-            if length < 40:
+            if length < 40:     # If both fingers are really close to each other
                 cv2.circle(img, (lineInfo[4], lineInfo[5]), 15, (0, 255, 0), cv2.FILLED)
                 autopy.mouse.click()
 
