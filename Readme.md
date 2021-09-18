@@ -30,4 +30,7 @@ It can be installed using "pip install autopy"
 
 ## Important Note:
 I faced alot of dependency issues throughout this project. Some of the issues and their solutions are as follows:
-- autopy not installing: 
+- autopy not installing: This is because autopy currently doesn't support Python versions above 3.8
+- webcam not opening: It was a bug in mediapipe and was fixed in latest python versions
+
+Hence, inorder for the project to run smoothly, you need to 
