@@ -15,3 +15,10 @@ curr_x, curr_y = 0, 0
 cap = cv2.VideoCapture(0)
 cap.set(3, width)
 cap.set(4, height)
+
+detector = ht.handDetector(maxHands=1)
+screen_width, screen_height = autopy.screen.size()
+while True:
+    success, img = cap.read()
+    img = detector.findHands(img)
+    lmlist, bbox = detector.findPosition(img)
