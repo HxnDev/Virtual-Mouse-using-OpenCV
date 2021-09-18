@@ -38,3 +38,5 @@ Hence, inorder for the project to run smoothly, you need to degrade the Python v
 #### How to Degrade Python Version:
 Follow the following steps:
 - Uninstall Python from add/remove programs
+- Go to AppData and remove any python folder you see.
+- Download Python 3.8 from this link : [Python 3.8](https://www.python.org/downloads/release/python-380/)
