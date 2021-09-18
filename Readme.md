@@ -48,6 +48,6 @@ Follow the following steps:
 For any further queries, feel free to contact me at:
 Email: chhxnshah@gmail.com 
 
-&#xf0e1; : [LinkedIn]()
+&#xf08c; : [LinkedIn]()
 
 [Instagram]()
