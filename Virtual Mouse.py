@@ -8,8 +8,8 @@ import autopy   # Install using "pip install autopy"
 pTime = 0           # Used to calculate frame rate
 width = 640         # Width of Camera
 height = 480        # Height of Camera
-frameR = 100
-smoothening = 8
+frameR = 100        # Frame Rate
+smoothening = 8     # Smoothening Factor
 prev_x, prev_y = 0, 0
 curr_x, curr_y = 0, 0
 
