@@ -28,3 +28,5 @@ AutoPy is a simple, cross-platform GUI automation library for Python. It include
 
 It can be installed using "pip install autopy"
 
+## Important Note:
+I faced alot of dependency issues throughout this project.
