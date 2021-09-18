@@ -22,3 +22,11 @@ while True:
     success, img = cap.read()
     img = detector.findHands(img)
     lmlist, bbox = detector.findPosition(img)
+
+        if len(lmlist)!=0:
+            x1, y1 = lmlist[8][1:]
+        x2, y2 = lmlist[12][1:]
+
+        fingers = detector.fingersUp()
+        cv2.rectangle(img, (frameR, frameR), (width - frameR, height - frameR), (255, 0, 255), 2)
+        if fingers[1] == 1 and fingers[2] == 0:
