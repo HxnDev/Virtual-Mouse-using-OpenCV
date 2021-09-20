@@ -42,7 +42,7 @@ Follow the following steps:
 - Download Python 3.8 from this link : [Python 3.8](https://www.python.org/downloads/release/python-380/)
 - Install it.
 - Open command promt and run "pip" inorder to confirm installation.
-- Your Python version has been degraded.
+- Your Python version has been degraded :)
 
 ## Contact Information:
 For any further queries, feel free to contact me at:
