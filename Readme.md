@@ -46,9 +46,12 @@ Follow the following steps:
 - Open command promt and run "pip" inorder to confirm installation.
 - Your Python version has been degraded :)
 
-## Contact Information:
-For any further queries, feel free to contact me at:
-
-Email: chhxnshah@gmail.com 
-
-LinkedIn : [Hassan Shahzad](https://www.linkedin.com/in/hassan-shahzad-2a6617212/)
+## 📫 Contact Me: 
+<p align="center">
+  <a href="http://www.hxndev.com/"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Website"/></a>
+	<a href="mailto:chhxnshah@gmail.com"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Gmail"/></a>
+	<a href="https://github.com/HxnDev"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
+	<a href="https://www.linkedin.com/in/hassan-shahzad-2a6617212/"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
+	<a href="https://www.instagram.com/hxn_photography/?hl=en"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
+	
+</p>
